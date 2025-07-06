@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style 2.css">
+    <title>IK AMINU website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">IK Aminu</a>
+
+        <nav>
+            <a href="index.html"> Home</a>
+            <a href="CV.html" class="active" >CV</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+
+  <section>
+      <h2>About Me</h2>
+      <p>I am a web developer with experience across front-end and back-end projects, AI automation, and team management. Formerly the founder of Web4, an IT agency specialising in building websites and teaching HTML and CSS to IT/SIWES students at the Business Incubation Center, Farmcenter, Kano.</p>
+      <p>Currently interning at NCC, I combine technical execution with strategic thinking to deliver efficient, quality-focused solutions. Entrepreneurial by nature, I thrive on transforming ideas into structured, actionable systems – always prioritising clarity and impact.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ikaminumail@gmail.com">ikaminumail@gmail.com</a></p>
+      <p>Phone: 09030878676</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript, Python</li>
+        <li>AI Automation: n8n, Zapier, Make.com</li>
+        <li>Figma, Canva</li>
+        <li>Public speaking, Team management</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Web4 Agency:</strong> Built multiple client websites under Web4, overseeing design, development, and deployment.</li>
+        <li><strong>TITAN Group:</strong> Developed TITAN Group’s website for a team development initiative focused on aligning individual strengths toward collective goals.</li>
+        <li><strong>Federal University Dutse Integration:</strong> Linked FUD’s student portal with their student account spreadsheets for seamless automatic updates.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>Primary: Darul Arkam Primary School</li>
+        <li>Secondary: Prime College – College Diploma</li>
+        <li>Undergraduate: Cybersecurity (300 level), AFIT Kaduna</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Journeyman Robotics & Arduino (Steam Ledge)</li>
+        <li>Beginner Penetration Testing (Hackbox)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li>Intern, Nigerian Communications Commission (NCC) – Present</li>
+        <li>Founder, Web4 (Web development agency)</li>
+        <li>Instructor, Business Incubation Center, Farmcenter, Kano – Taught HTML & CSS</li>
+        <li>Team Lead, TITAN Group</li>
+        <li>Secretary, Dandurgu Air Travels and Tours</li>
+        <li>Engineer, Geesast Technologies & Beebyte Technologies – Solar and security installations</li>
+        <li>Freelance Editor, Fiverr</li>
+        <li>Freelance Writer & Researcher</li>
+        <li>Founder, Kstyle (online fashion store)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>Hausa (Native)</li>
+        <li>English (Fluent)</li>
+        <li>Arabic (Beginner)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Download CV</h2>
+      <p> <a target="blank" href="IK-Aminu-CV.pdf" class="button" download>Download PDF Version</a></p>
+    </section>
+
+  </div>
+
+  
+  <button id="scrollTopBtn" title="Go to top">↑</button>
+
+  <script>
+    const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+    window.onscroll = function() { scrollFunction(); };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        scrollTopBtn.style.display = "block";
+      } else {
+        scrollTopBtn.style.display = "none";
+      }
+
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        scrollTopBtn.classList.add("glow");
+      } else {
+        scrollTopBtn.classList.remove("glow");
+      }
+    }
+
+    scrollTopBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script> 
+
+</body>
+</html>
